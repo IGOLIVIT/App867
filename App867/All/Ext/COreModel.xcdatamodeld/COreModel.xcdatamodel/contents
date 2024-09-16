@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="DiaryModel" representedClassName="DiaryModel" syncable="YES" codeGenerationType="class">
+        <attribute name="diDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="diDescr" optional="YES" attributeType="String"/>
+        <attribute name="diEat" optional="YES" attributeType="String"/>
+        <attribute name="diIng" optional="YES" attributeType="String"/>
+        <attribute name="diTime" optional="YES" attributeType="String"/>
+        <attribute name="diTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GoalModel" representedClassName="GoalModel" syncable="YES" codeGenerationType="class">
+        <attribute name="gDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gDescr" optional="YES" attributeType="String"/>
+        <attribute name="gStage" optional="YES" attributeType="String"/>
+        <attribute name="gTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanModel" representedClassName="PlanModel" syncable="YES" codeGenerationType="class">
+        <attribute name="plDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="plDescr" optional="YES" attributeType="String"/>
+        <attribute name="plIng" optional="YES" attributeType="String"/>
+        <attribute name="plTitle" optional="YES" attributeType="String"/>
+        <attribute name="plType" optional="YES" attributeType="String"/>
+    </entity>
+</model>
